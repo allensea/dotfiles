@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[user]
+	email = user@host.com
+	name = FirstName LastName
+[push]
+	autoSetupRemote = true
+[credential]
+	credentialStore = cache
+	cacheOptions = --timeout 14400
+	helper = /usr/local/bin/git-credential-manager --no-ui
+
